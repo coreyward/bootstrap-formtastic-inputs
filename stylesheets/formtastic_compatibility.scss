@@ -1,0 +1,24 @@
+form .inputs,
+form .buttons {
+  > ol {
+    list-style: none;
+    margin-left: 0;
+  }
+}
+
+fieldset.choices {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+form .error .input > p {
+  margin-bottom: 0;
+}
+
+form p.help-block {
+  margin-bottom: 0;
+}
+
+form .input-prepend input {
+  width: 184px;
+}
